@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  font-size: 1.15rem;
+  background-color: rgb(255, 255, 255);
+  color: #000000 ;
+  transition: all 0.1s ease-in;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(112, 112, 112);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: deepskyblue;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 143, 190);
+}
+
+.class {
+  margin-top: 1rem;
+  padding-inline-end: 2rem;
+  width: 100%;
+  min-width: 0px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  position: relative;
+  appearance: none;
+  transition-property: var(--chakra-transition-property-common);
+  transition-duration: var(--chakra-transition-duration-normal);
+  background: inherit;
+  padding-bottom: 1px;
+  line-height: var(--chakra-lineHeights-normal);
+  font-size: var(--chakra-fontSizes-md);
+  padding-inline-start: var(--chakra-space-4);
+  height: var(--chakra-sizes-10);
+  border-radius: var(--chakra-radii-md);
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+  border-color: deepskyblue;
+  color: #000000;
+}

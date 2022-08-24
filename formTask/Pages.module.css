@@ -1,0 +1,15 @@
+
+.linkbutton{
+    width: 300px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 5px rgba(192, 192, 192, 0.445);
+    transition: box-shadow ,background-color .5s ease-in;
+}
+.linkbutton:hover{
+    background-color: rgb(0, 166, 221);
+    box-shadow: 0 10px 10px 5px rgba(192, 192, 192, 0.63);
+}

@@ -1,0 +1,120 @@
+.formsContainer{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2rem;
+}
+.container{
+    margin-top: 1rem;
+    display: flex;
+}
+.formName{
+    margin-top: 1.5rem;
+    margin-right: 9rem;
+}
+.formName span{
+    padding-right: 3rem;
+}
+.formsbox1{
+    flex: 33%;
+}
+.formsbox2{
+    flex: 33%;
+}
+.formsbox3{
+    flex: 33%;
+}
+.formsbox1 button,
+.formsbox2 button,
+.formsbox3 button,
+.submitbutton{
+    margin-top: 1rem;
+    display: flex;
+    background-color: deepskyblue;
+    box-shadow: 0 10px 10px 5px rgba(192, 192, 192, 0.445);
+    width: 300px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    transition: box-shadow ,background-color .5s ease-in;
+}
+.formsbox1 button:hover,
+.formsbox2 button:hover,
+.formsbox3 button:hover,
+.submitbutton:hover{
+    background-color: rgb(0, 166, 221);
+    box-shadow: 0 10px 10px 5px rgba(192, 192, 192, 0.63);
+}
+.userformsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.userforms{
+    border-radius: 10px;
+    width: 20rem;
+    padding: 15px;
+    transition: all .5s linear;
+    margin: 2%;
+}
+.userformsSelect{
+    border-radius: 10px;
+    width: 20rem;
+    transition: all .5s linear;
+    margin: 2%;
+    padding-inline-end: 2rem;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    transition-property: var(--chakra-transition-property-common);
+    transition-duration: var(--chakra-transition-duration-normal);
+    background: inherit;
+    padding-bottom: 1px;
+    line-height: var(--chakra-lineHeights-normal);
+    font-size: var(--chakra-fontSizes-md);
+    padding-inline-start: var(--chakra-space-4);
+    height: var(--chakra-sizes-10);
+    border-radius: var(--chakra-radii-md);
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: deepskyblue;
+}
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+}
+.inputGroup span{
+    padding: 7px;
+}
+.removeIcon{
+    color: deepskyblue;
+    font-size: 1.7rem;
+    margin: 7px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    transition: color .5s ease-in;
+}
+.removeIcon:hover{
+    color: red;
+}
+@media screen and (max-width: 968px){
+    .container{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 792px){
+    .formName{
+        text-align: center;
+        margin-right: 0%;
+    }
+    .formName span{
+        margin-left: 3rem;
+    }
+    .formName Input{
+        width: 90%;
+        margin-right: 0rem;
+    }
+}

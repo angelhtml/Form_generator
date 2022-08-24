@@ -1,0 +1,10 @@
+.header{
+    background-color: deepskyblue;
+    width: 100%;
+    box-shadow: 0 0 10px 10px silver;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    padding: 7px;
+}
