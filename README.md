@@ -12,7 +12,7 @@ Using with 🔥 <br />
 
 <h1>📗 Descriptions</h1>
 <ul>
-<li>in ' Set Inputs ' section you can create your input, you have three options for choice: single line input, multi line inputs (Textarea) and select form a list of options</li>
+<li>in ' Set Inputs ' section you can create your inputs, you have three options for choice: single line input, multi line inputs (Textarea) and select form a list of options</li>
 <li>in ' Preview ' section you can see your added inputs and the last you should push the submit button</li>
 <li>congratulation 🎉 your form created !</li>
 <li>You can see your forms urls with click on ' Forms list '</li>
