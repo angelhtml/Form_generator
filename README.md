@@ -1,7 +1,7 @@
 # Form generator
 <p align='center'>
 Using with 🔥 <br />
-<img src='https://angel-resume.netlify.app/nextjs-cover.webp' width='40%' align='center'/>
+<img alt='Image' src='https://angel-resume.netlify.app/nextjs-cover.webp' width='40%' align='center'/>
 </p>
 
 <h1>📜 How to use it</h1>
