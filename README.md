@@ -1,6 +1,5 @@
 # Form generator
 <p align='center'>
-Using with 🔥 <br />
 <img alt='Image' src='https://angel-resume.netlify.app/nextjs-cover.webp' width='40%' align='center'/>
 </p>
 
