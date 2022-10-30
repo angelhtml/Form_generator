@@ -1,4 +1,4 @@
-# Form generator
+# Form generator (SSR)
 <p align='center'>
 <img alt='Image' src='https://angel-resume.netlify.app/nextjs-cover.webp' width='40%' align='center'/>
 </p>
