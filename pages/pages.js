@@ -20,6 +20,7 @@ export default function Pages({links}){
     )
 }
 
+//Get the users json
 export async function getServerSideProps(context) {
     const users = table("./users.json");
     const form = await users.get(obj => { return (true)});
