@@ -1,6 +1,7 @@
 import table from 'cakebase';
 
 export default async function handler(req, res) {
+    
     if (req.method === 'POST') {
         try{
         const Form_Name = req.body.formname
@@ -22,4 +23,5 @@ export default async function handler(req, res) {
             console.log(err)
         }
     }
+    
 }
