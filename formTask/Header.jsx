@@ -1,4 +1,5 @@
-import HeaderStyle from './Header.module.css'
+import HeaderStyle from './Header.module.css';
+
 export default function Header(){
     return(
         <div className={HeaderStyle.header}>
