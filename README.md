@@ -3,6 +3,7 @@
 <img alt='Image' src='https://angel-resume.netlify.app/nextjs-cover.webp' width='40%' align='center'/>
 </p>
 
+
 <h1>📜 How to use it</h1>
 <ul>
 <li>1️⃣install the packages using with " npm i " command</li>
