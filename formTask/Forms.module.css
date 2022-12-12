@@ -100,6 +100,7 @@
 .removeIcon:hover{
     color: red;
 }
+
 @media screen and (max-width: 968px){
     .container{
         flex-direction: column;
