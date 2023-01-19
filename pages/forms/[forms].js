@@ -7,21 +7,21 @@ export default function Userform({data}){
     const toast = useToast()
     return(
         <div>
-            <Headeruser title={data[0].formname}/>
-            <div className={FormsStyle.userformsbox}>
-            {data[0].Datas.map(e=>{  
-            if(e.type==="single"){return( <div className={FormsStyle.userforms} key={e.id}><div className={FormsStyle.inputGroup}><span>{e.question}</span><Input isInvalid errorBorderColor='deepskyblue' placeholder={e.question}/></div></div>)}
-            
-            if(e.type==="Multi"){return( <div className={FormsStyle.userforms} key={e.id}><div className={FormsStyle.inputGroup}><span>{e.question}</span><textarea placeholder={e.question} style={{border:"2px solid deepskyblue"}}/></div></div>)}
-            
-            if(e.type==="option"){return( 
-            <div className={FormsStyle.userformsbox} key={e.id}>
-              <div className={FormsStyle.inputGroup}>
-              <span>{e.question}</span>
-              <select className={FormsStyle.userformsSelect} placeholder={e.question}>
-              {e.options.map(x=><option value={x} >{x}</option>)}
-              </select>
-              </div>
+              <Headeruser title={data[0].formname}/>
+              <div className={FormsStyle.userformsbox}>
+              {data[0].Datas.map(e=>{  
+              if(e.type==="single"){return( <div className={FormsStyle.userforms} key={e.id}><div className={FormsStyle.inputGroup}><span>{e.question}</span><Input isInvalid errorBorderColor='deepskyblue' placeholder={e.question}/></div></div>)}
+              
+              if(e.type==="Multi"){return( <div className={FormsStyle.userforms} key={e.id}><div className={FormsStyle.inputGroup}><span>{e.question}</span><textarea placeholder={e.question} style={{border:"2px solid deepskyblue"}}/></div></div>)}
+              
+              if(e.type==="option"){return( 
+              <div className={FormsStyle.userformsbox} key={e.id}>
+                <div className={FormsStyle.inputGroup}>
+                <span>{e.question}</span>
+                <select className={FormsStyle.userformsSelect} placeholder={e.question}>
+                {e.options.map(x=><option value={x} >{x}</option>)}
+                </select>
+                </div>
             </div>
             )}
             }) 
