@@ -9,6 +9,7 @@ function App(){
         <title>Fullstack Engineer Tech Test</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="manifest" href='/manifest.json' />
+    
       </Head>
       <Header />
       <Form />
