@@ -1,6 +1,6 @@
 {
-  "name": "forms",
-  "version": "0.1.0",
+  "name": "Form-generator",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
